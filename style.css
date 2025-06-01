@@ -25,12 +25,12 @@ footer {
 }
 
 .logo img{
-  
-  position: absolute;
-  top: 20px;
-  left: 550px;
-  height: 150px;
-  width: 200px;
+ position: absolute;
+top: 20px;
+left: 50%;
+transform: translateX(-50%);
+height: 150px;
+width: 200px;
 }
 
 .nav-menu {
