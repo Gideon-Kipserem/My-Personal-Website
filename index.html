@@ -2,9 +2,110 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>My Personal Page</title>
+    <title>GIDEON_KIMAIYO-PORTFORLIO</title>
+     <!--links-->
+     <link rel="stylesheet" href="style.css" />
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
 </head>
+<!--header navigation-->
+<header>
+    <nav>
+        <div>
+          <a href="hero" class="logo">
+  <img src="./images/logo.jpg" alt=" gideonkimaiyo Logo">
+</a>
+
+        </div>
+       
+        <ul class="nav-menu" >
+           <li><a href="#hero"><button>Home</button></a></li>
+           <li><a href="#about"><button>About</button></a></li>
+            <li><a href="#skills"><button>skills</button></a></li>
+            <li><a href="#projects"><button>Projects</button></a></li>
+            <li><a href="#contact"><button>Contact</button></a></li>
+ 
+        </ul>
+    </nav>
+    
+
+</header>
 <body>
+
+<!--hero section-->
+<section id="hero">
+     <h1>Hello, I'm Gideon Kimaiyo</h1>
+    <p>Aspiring Developer | Problem Solver | Tech Enthusiast</p>
+</section>
+
+<!--about section-->
+<section class="about">
+     <h2>About Me</h2>
+    <p>I’m a passionate software engineering student with a background in orthopedic and trauma medicine...</p>
+</section>
+
+
+    <!--skills section-->
+<section class="skills">
+  <h2>Skills</h2>
+  
+  <ul id="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Git & GitHub</li>
+    <li>Responsive Web Design</li>
+    <li>Python</li>
+    <li>React (basic)</li>
+    <li>Medical Data Collection</li>
+    <li>Strong Communication</li>
+    <li>Orthopaedic Skills</li>
+    </ul>
+    
+  
+  
+</section>
+    <!--projects section-->
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card" onclick="toggleDetails(this)">
+      <h3>Gideon-Kipserem/phase-0-pac-3-arithmetic-la</h3>
+      <p>Creates a simple calculator using javasScript</p>
+    </div>
+
+    <div class="project-card2" >
+        <h3>Gideon-Kipserem/phase-0-css-kitten-lab</h3>
+        <p>solves kittens on wheelbarrow using CSS</p>
+    </div>
+    </section>
+    
+<!--contact section-->
+<secttion class="contact">
+    <h2>Contact</h2>
+
+    <div class="phone">
+        <h3>Phone Number</h3>
+        <p id="number">0799009365</p>
+    </div>
+    <div class="email">
+        <h3>Email</h3>
+        <p id="mail">gideonkimaiyo254@gmail.com</p>
+    </div>
+</secttion>
+
+<!--footer-->
+<footer>
+  <p>© 2025 Gideon Kipserem. All rights reserved.</p>
+
+  <div class="social-links">
+    <a href="https://github.com/Gideon-Kipserem" target="_blank">GitHub</a>
+  </div>
+
+  <p>Built with HTML, CSS & JavaScript</p>
+</footer>
+
     
 </body>
 </html>
