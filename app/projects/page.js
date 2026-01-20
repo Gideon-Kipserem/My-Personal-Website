@@ -5,14 +5,12 @@ const projects = [
   {
     title: "Smart POS System",
     stack: "Next.js, Tailwind CSS",
-    description: "Built a POS system with currency toggle, inventory alerts, and sales analytics.",
-    liveHref: "https://smart-duka.vercel.app/"
+    description: "Built a POS system with currency toggle, inventory alerts, and sales analytics."
   },
   {
     title: "Smart Goal Planner",
     stack: "React, JSON Server",
     description: "CRUD-based savings tracker with category management and progress visualization.",
-    liveHref: "https://smart-goal-planner-3onc.onrender.com/",
     repoHref: "https://github.com/Gideon-Kipserem/smart-goal-planner"
   },
   {
@@ -48,17 +46,6 @@ export default function ProjectsPage() {
             <p className="mt-3 text-sm text-slate-300">{project.description}</p>
 
             <div className="mt-5 flex flex-wrap gap-2">
-              {project.liveHref ? (
-                <Link
-                  href={project.liveHref}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-lg bg-brand-600 px-3 py-2 text-sm font-semibold text-white hover:bg-brand-500"
-                >
-                  Live
-                </Link>
-              ) : null}
-
               {project.repoHref ? (
                 <Link
                   href={project.repoHref}
